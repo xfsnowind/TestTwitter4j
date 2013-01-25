@@ -6,7 +6,7 @@
 
    <servlet>
       <servlet-name>TestTwitter4j</servlet-name>
-      <servlet-class>com.nesstar.TestTwitter4j</servlet-class>
+      <servlet-class>com.nesstar.TestTwitter4jServlet</servlet-class>
    </servlet>
 
    <servlet-mapping>
