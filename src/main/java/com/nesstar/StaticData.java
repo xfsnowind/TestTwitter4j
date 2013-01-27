@@ -17,5 +17,9 @@ public class StaticData {
    public static final String ACCESS_TOKEN_URL = "https://api.twitter.com/oauth/access_token";
    
    public static final String REQUEST_TOKEN_URL = "https://api.twitter.com/oauth/request_token";
+   
+   private StaticData() {
+      
+   }
 
 }

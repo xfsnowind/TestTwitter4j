@@ -1,2 +1,62 @@
+<!DOCTYPE html> 
 <html>
+   <head>
+      <title>Test Twitter4j</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1"> 
+      
+      <link rel="stylesheet" type="text/css" href="ext/bootstrap/css/bootstrap.min-withIcon.css">
+      
+      <link rel="stylesheet" type="text/css" href="ext/bootstrap/css/bootstrap-responsive.min.css">
+   </head>
+   
+	<body>
+	   <div class="header">
+         <!-- <img src="images/header_background.jpg"> -->
+      </div>
+		<div class="container">
+         <div class="row">
+            <div class="span6 offset3">
+               <h2>Sign in to Twitter</h2>
+
+               <p>To see the requested resource, please enter your username and password below</p>
+
+               <!--ONRESULT-->
+               <form class="form-horizontal" method="post" action="t4j">
+                  <input type="hidden" name="operation" value="login">
+                  <div class="control-group" >
+                     <label class="control-label">Username:</label>
+                     <div class="controls">
+                        <input type="text" id="userName" name="username" placeholder="Username" size="25" class="input-medium" required="required">
+                     </div>
+                  </div>
+
+                  <div class="control-group">
+                     <label class="control-label">Password:</label>
+                     <div class="controls">
+                        <input type="password" id="userPassword" name="password" placeholder="Password" size="25" class="input-medium" required="required">
+                     </div>
+                  </div>
+
+                  <div class="control-group">
+                     <div class="controls">
+                        <input id="submitButton" class="btn btn-primary" type="submit" value="Login">
+                     </div>
+                  </div>
+                  <div class="control-group">
+                     <div class="controls">
+                        <span id="message" class="label label-warning hide"></span>
+                     </div>
+                  </div>
+               </form>
+               
+            </div>
+         </div>
+      </div>
+   </body>
+   
+   <script type="text/javascript" src="ext/jquery/js/jquery-1.8.1.js"></script>
+   <script type="text/javascript" src="ext/bootstrap/js/bootstrap.js"></script>
+   <script type="text/javascript" src="TestTwitter4j.js"></script>
+
 </html>
