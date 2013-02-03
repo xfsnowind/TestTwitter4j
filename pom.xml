@@ -34,11 +34,6 @@
 		   <artifactId>log4j</artifactId>
 		   <version>1.2.16</version>
 		</dependency>
-		<dependency>
-		   <groupId>org.apache.httpcomponents</groupId>
-		   <artifactId>httpclient</artifactId>
-		   <version>4.2.2</version>
-		</dependency>
       <dependency>
          <groupId>net.sf.json-lib</groupId>
          <artifactId>json-lib</artifactId>
@@ -49,12 +44,6 @@
          <groupId>org.twitter4j</groupId>
          <artifactId>twitter4j-core</artifactId>
          <version>[3.0,)</version>
-      </dependency>
-      <dependency>
-         <groupId>junit</groupId>
-         <artifactId>junit</artifactId>
-         <version>4.9</version>
-         <scope>test</scope>
       </dependency>
       <dependency>
          <groupId>org.hamcrest</groupId>
@@ -87,7 +76,6 @@
                         <include>**/*.html</include>
                         <include>**/*.js</include>
                         <include>**/*.css</include>
-                        <include>**/*.less</include>
                      </includes>
                   </scanTargetPattern>
                   <scanTargetPattern>
